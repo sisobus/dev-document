@@ -24,10 +24,12 @@ ipad
 8. 아래 이미지에서 mosh와 ssh의 차이점을 볼 수 있음
 <img width="300" alt="ssh" src="https://user-images.githubusercontent.com/3329885/49706381-e2ff9880-fc68-11e8-81e6-c5f6f2c210fc.png">
 <img width="300" alt="mosh" src="https://user-images.githubusercontent.com/3329885/49706382-e4c95c00-fc68-11e8-8c34-0ead475c8ecd.png">
+
 9. mosh를 추천합니다.
-    - 대신 서버에서 mosh를 설치해줘야함. 방화벽도 열어줘야함.
-    - ec2의 경우 보안그룹에서 포트도 UDP 60000-61000열어줘야함
-    - client에서 osx server로 접속할 경우, mosh-server를 /usr/local/bin/mosh-server로 변경해줘야함
+      - 대신 서버에서 mosh를 설치해줘야함. 방화벽도 열어줘야함.
+      - ec2의 경우 보안그룹에서 포트도 UDP 60000-61000열어줘야함
+      - client에서 osx server로 접속할 경우, mosh-server를 /usr/local/bin/mosh-server로 변경해줘야함
+
 
 ```
   $ sudo apt-get install mosh (ubuntu)
